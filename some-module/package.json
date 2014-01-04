@@ -1,0 +1,5 @@
+{ "name": "some-module" 
+, "version": "0.0.0"
+, "dependencies": { "through": "*" }
+, "browserify": { "transform": ["./local-transform.js"] }
+}
